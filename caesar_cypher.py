@@ -1,4 +1,4 @@
-# This function encrypts a message using the Vigenere cipher
+# This function encrypts a message using the Caesar cipher
 def crypt_function():
     # This loop will continue until the user enters a valid shift value
     true = True
@@ -32,7 +32,7 @@ def crypt_function():
             true = False
 
 
-# This function decrypts a message encrypted with the Vigenere cipher
+# This function decrypts a message encrypted with the Caesar cipher
 def decrypt_function():
     # This loop will continue until the user enters a valid shift value
     loop = True
